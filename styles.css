@@ -1,0 +1,33 @@
+.grid{
+    display: flex;
+    gap: 10px;
+    margin: 10px
+}
+
+.grid-2{
+    display: flex;
+    gap: 10px;
+    margin: 10px
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+}
+
+.box.clicked{
+    background-color: black;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.circle.clicked{
+    background-color: red;
+}
+
